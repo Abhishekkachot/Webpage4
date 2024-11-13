@@ -1,0 +1,279 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+}
+.navbar {
+    width: 100%;
+    height: 100px;
+    /* border: 2px solid black; */
+    position: fixed;
+    background-color: white;
+    opacity: 50%;
+}
+.navbar .left
+{
+    width: 40%;
+    height: 100px;
+    /* border: 2px solid red; */
+    float: left;
+}
+.navbar .left .l1{
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 35px;
+
+
+}
+
+.navbar .right
+{
+    width: 60%;
+    height: 100px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+
+
+
+}
+a{
+    text-decoration: none;
+}
+.navbar .right .r1 
+{
+margin-top: 35px;
+font-size: 20px;
+color: black;
+}
+.middle1{
+    width: 100%;
+    height: 900px;
+    /* border: 2px solid black; */
+}
+.middle1 .left1{
+    width: 50%;
+    height: 900px;
+    /* border: 2px solid red; */
+    background-image: url(/1.jpg);
+    float: left;
+}
+.middle1 .right1{
+    width: 50%;
+    height: 900px;
+    /* border: 2px solid red; */
+    float: left;
+}
+.middle1 .right1 .p1{
+    font-size: 90px;
+    margin-left: 80px;
+    margin-top: 200px;
+}
+.middle1 .right1 .p2{
+    font-size: 90px;
+    margin-left: 80px;
+}
+.middle1 .right1 .p3{
+    font-size: 20px;
+    margin-left: 170px;
+    margin-top: -14px;
+}
+.middle1 .right1 .line1{
+    width: 8%;
+    height: 2px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 80px;
+}
+.middle1 .right1 .p4{
+    margin-left: 80px;
+    margin-top: 60px;
+    width: 75%;
+}
+.middle2{
+    width: 100%;
+    height: 900px;
+    /* border: 2px solid red; */
+    background-color: #D5E1DF;
+}
+.middle2 .left2{
+    width: 50%;
+    height: 900px;
+    /* border: 2px solid red; */
+    float: left;
+}
+.middle2 .left2 .p5{
+    font-size: 25px;
+    margin-left: 60px;
+    margin-top: 200px;
+}
+.middle2 .left2 .p6{
+    font-size: 20px;
+    margin-left: 60px;
+    width: 65%;
+    margin-top: 40px;
+}
+.middle2 .left2 .line2{
+    width: 8%;
+    height: 2px;
+    border: 2px solid black; 
+    float: left;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.middle2 .right2{
+    width: 50%;
+    height: 900px;
+    /* border: 2px solid red; */
+    float: left;
+}
+.middle2 .right2 .p7{
+    margin-left: 70px;
+    margin-top: 200px;
+    width: 75%;
+}
+.middle2 .right2 .p8{
+    margin-left: 70px;
+    margin-top: 40px;
+    width: 75%;
+}
+.middle2 .right2 button{
+    width: 200px;
+    height: 50px;
+    background-color: gray;
+    color: white;
+    border: none;
+    margin-left: 70px;
+}
+.middle3{
+    width: 100%;
+    height: 1200px;
+    /* border: 2px solid red; */
+
+}
+.middle3 .left3{
+    width: 50%;
+    height: 1200px;
+    /* border: 2px solid red; */
+    float: left;
+    background-image: url(/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.middle3 .right3{
+    width: 50%;
+    height: 1200px;
+    /* border: 2px solid red; */
+    background-color: #F2F2F2;
+    float: left;
+}
+.middle3 .right3 .line3{
+    width: 8%;
+    height: 2px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+.middle3 .right3 .p9{
+    margin-left: 70px;
+    margin-top: 170px;
+    font-size: 30px;
+
+}
+.middle3 .right3 .p10{
+    margin-left: 70px;
+    margin-top: 70px;
+    width: 83%;   
+}
+.middle3 .right3 .subright3{
+    width: 40%;
+    height: 200px;
+    /* border: 2px solid black; */
+    float: left;
+    margin-left: 70px;
+    margin-top: 100px;
+    line-height: 40px;
+    
+}
+.middle3 .right3 .subright4{
+    width: 40%;
+    height: 200px;
+    /* border: 2px solid black; */
+    float: left;
+    margin-left: 50px;
+    margin-top: 100px;
+    line-height: 40px;
+    
+}
+.form{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: 470px;
+    margin-top: 350px;
+    margin-left: 70px;
+}
+.form .left{
+    float: left;
+}
+.form .left form input{
+    width: 250px;
+    height: 42px;
+    border: none;
+    
+}
+.form .right form input{
+    width: 250px;
+    height: 42px;
+    border: none;
+}
+.form .email form input{
+    width: 520px;
+    height: 42px;
+    border: none;
+}
+.form .right{
+    float: left;
+    margin-left: 20px;
+}
+.form .email
+{
+    float: left;
+    margin-top: 10px;
+}
+
+.form .Message{
+    width: 100%;
+    height: 100px;
+    margin-top: 150px;
+}
+
+.form .Message form textarea{
+    width: 520px;
+    height: 100px;
+    border: none;
+}
+.form .button5{
+    width: 520px;
+    background-color: #A3B8B4;
+    height: 45px;
+    color: white;
+    border: none;
+    margin-top: 40px;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #424746;
+    color: white;
+    text-align: center;
+}
+.footer .footer1{
+    text-align: center;
+    padding-top: 10px;
+}
+
